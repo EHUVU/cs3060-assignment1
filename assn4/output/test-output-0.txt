@@ -1,0 +1,21 @@
+ Assignment 4: MMU Simulator by < didn ’ t change the name >
+Op #0 ( X 0 x00000800 ) Success . Physical address 0 x00004260 ( Frame 531 ,
+Access R - X )
+ Op #1 ( R 0 x00003FFC ) Success . Physical address 0 x000061BC ( Frame 781 ,
+Access RW -)
+ Op #2 ( W 0 x00000C00 ) Success . Physical address 0 x00000EE0 ( Frame 119 ,
+Access RW -)
+ Op #3 ( R 0 x00000845 ) Success . Physical address 0 x000033A5 ( Frame 413 ,
+Access R - -)
+ Op #4 ( W 0 x00003FCC ) Success . Physical address 0 x0000270C ( Frame 312 ,
+Access RW -)
+ Op #5 ( W 0 x00004798 ) Page fault . Logical address has non - zero bits in
+bits 31 -14
+ Op #6 ( R 0 x00000875 ) Page fault . Entry 3 in table at frame 455 is not set
+valid
+ Op #7 ( W 0 x00000C58 ) Page fault . Entry 2 in table at frame 376 is not set
+valid
+ Op #8 ( W 0 x00000812 ) Page fault . Illegal access to frame 531 due to entry
+0 in table at frame 455 with access R - X
+ Op #9 ( X 0 x00000C26 ) Page fault . Illegal access to frame 703 due to entry
+1 in table at frame 376 with access RW -
